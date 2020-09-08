@@ -5,7 +5,13 @@ const boxen = require("boxen");
 const log = console.log;
 
 const data = {
-    name: chalk.black.bold("                          NICOLAS CROMMEN"),
+    line1: chalk.black("                           • •"),
+    line2: chalk.black("           • • • • •      • •   • • • • • •    • • • • • •"),
+    line3: chalk.black("          • • • • • •    • •   • • • • • •    • • • • • •"),
+    line4: chalk.black("         • • •   • •    • •   • •            • •     • •"),
+    line5: chalk.black("        • • •   • •    • •   • • • • • •    • • • • • •"),
+    line6: chalk.black("       • • •   • •    • •   • • • • • •    • • • • • •"),
+    name: chalk.blue.bold("                        NICOLAS CROMMEN"),
     work: chalk.gray("Junior Developper at BeCode.org"),
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("Nicolas_Crommen"),
     npm: chalk.gray("https://npmjs.com/") + chalk.red("~nicolas1576"),
@@ -27,6 +33,13 @@ log(
     chalk.black(
         boxen(
             [
+                //`${data.line1}`,
+                `${data.line2}`,
+                `${data.line3}`,
+                `${data.line4}`,
+                `${data.line5}`,
+                `${data.line6}`,
+                EMPTYLINE,
                 `${data.name}`,
                 EMPTYLINE,
                 `${data.labelWork} ${data.work}`,
@@ -40,8 +53,9 @@ log(
             ].join(NEWLINE),
             {
                 padding: 1,
-                margin: 1,
+                margin: 0,
                 borderStyle: "round",
+                backgroundColor: "white",
             },
         ),
     ),
