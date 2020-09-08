@@ -5,12 +5,11 @@ const boxen = require("boxen");
 const log = console.log;
 
 const data = {
-    line1: chalk.black("                           • •"),
-    line2: chalk.black("           • • • • •      • •   • • • • • •    • • • • • •"),
-    line3: chalk.black("          • • • • • •    • •   • • • • • •    • • • • • •"),
-    line4: chalk.black("         • • •   • •    • •   • •            • •     • •"),
-    line5: chalk.black("        • • •   • •    • •   • • • • • •    • • • • • •"),
-    line6: chalk.black("       • • •   • •    • •   • • • • • •    • • • • • •"),
+    line2: chalk.black("           • • • • •      • •    • • • • • •    • • • • • •"),
+    line3: chalk.black("          • • • • • •    • •    • • • • • •    • • • • • •"),
+    line4: chalk.black("         • • •   • •    • •    • •            • •     • •"),
+    line5: chalk.black("        • • •   • •    • •    • • • • • •    • • • • • •"),
+    line6: chalk.black("       • • •   • •    • •    • • • • • •    • • • • • •"),
     name: chalk.blue.bold("                        NICOLAS CROMMEN"),
     work: chalk.gray("Junior Developper at BeCode.org"),
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("Nicolas_Crommen"),
@@ -33,7 +32,6 @@ log(
     chalk.black(
         boxen(
             [
-                //`${data.line1}`,
                 `${data.line2}`,
                 `${data.line3}`,
                 `${data.line4}`,
