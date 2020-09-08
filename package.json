@@ -1,0 +1,27 @@
+{
+  "name": "nicocard",
+  "version": "1.0.0",
+  "bin": "./index.js",
+  "description": "My Business Card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas-Crommen/npx-card.git"
+  },
+  "keywords": [
+    "card"
+  ],
+  "author": "Nicolas Crommen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolas-Crommen/npx-card/issues"
+  },
+  "homepage": "https://github.com/Nicolas-Crommen/npx-card#readme",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0"
+  }
+}
